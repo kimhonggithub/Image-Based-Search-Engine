@@ -2,7 +2,7 @@
 Welcome to the repository for the Capstone Project II (2022-2023) at CADT, supervised by Mr. Him Soklong. This project focuses on developing an image-based search engine for an ecommerce website.
 
 ### Team members
-This project is under advisor Him Soklong and involved four students in the fourth year of the bachelor in Computer Science:
+This project is under the advisorship of mr.Him Soklong and involves four students in the fourth year of the bachelor's in Computer Science:
 - Set Kimhong
 - Phat Soklieng
 - Kun Raksa
@@ -26,7 +26,7 @@ git clone https://github.com/kimhonggithub/Image-Based-Search-Engine.git
 ```sh
 conda install pytorch torchvision torchaudio cpuonly -c pytorch
 ```
-3. Install Additoinal Libraries :
+3. Install Additional Libraries :
 ```sh
 conda install scikit-learn
 ```
