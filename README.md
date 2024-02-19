@@ -1,5 +1,5 @@
 # Image-Based-Search-Engine
-This is the respository for the 2022-2023 Capstone Project II at CADT, under the supervision of Mr. Him Soklong. The main objective of this project is building an image-based search engine for ecommerce website. 
+Welcome to the repository for the Capstone Project II (2022-2023) at CADT, supervised by Mr. Him Soklong. This project focuses on developing an image-based search engine for an ecommerce website.
 
 ### Team members
 This project is under advisor Him Soklong and involved four students in the fourth year of the bachelor in Computer Science:
@@ -9,16 +9,34 @@ This project is under advisor Him Soklong and involved four students in the four
 - Taing Molika
   
 ## Abstract
-This project addresses the limitations of conventional text-based search in e-commerce by introducing an innovative image-based search engine. The primary challenge lies in the diverse ways customers express product preferences and their occasional inability to articulate precise names. Our solution leverages the power of visual search, enabling users to find products effortlessly through images. By transcending language barriers and accommodating varied expressions, the image-based search promises to revolutionize the user experience, providing a more accurate and inclusive platform for online shopping.
+Conventional text-based search in e-commerce platforms faces limitations, especially when customers express product preferences in diverse ways or cannot articulate precise names. This project introduces an innovative image-based search engine to overcome these challenges. Leveraging visual search, users can effortlessly find products through images, transcending language barriers and accommodating varied expressions. This promises to revolutionize the user experience in online shopping, providing a more accurate and inclusive platform.
 
 ## Repository structure
-- ['README.md'](README.md): this file contains important information for our project (you are here!).
-- ['Fashion_Product_Dataset'](Fashion_Product_Dataset): this folder contain the dataset that we use to train our model
-- ['Image_Similarity_Search.ipynb'](Image_Similarity_Search.ipynb): this file contain data loader, data preprocessing, feature extraction, model and evaluation
+- `README.md`: Contains important information about the project.
+- `Fashion_Items_Dataset/`: Folder containing the full image dataset used in the project.
+- `Fashion_Items_Dataset_Test/`: Folder containing 20% of the full image dataset for testing or experimentation.
+- `Image_Similarity_Search.ipynb`: Jupyter Notebook file containing data loader, data preprocessing, feature extraction, model, and evaluation.
 
 ## Install instructions
 1. Clone our repository :
 ```sh
 git clone https://github.com/kimhonggithub/Image-Based-Search-Engine.git
 ```
-2. In other to run our code, including in [Code](Code) or our Web app. we would recommend using a virtual environment. This can be done by following the instructions from the [Python website](https://packaging.python.org/en/latest/guides/installing-using-pip-and-virtual-environments/)
+2. Install Pytorch:
+```sh
+conda install pytorch torchvision torchaudio cpuonly -c pytorch
+```
+3. Install Additoinal Libraries :
+```sh
+conda install scikit-learn
+```
+```sh
+conda install Pillow
+```
+```sh
+conda install matplotlib
+```
+```sh
+conda install numpy
+```
+4. In other to run our code, including in [Code](Code) or our Web app. we would recommend using a virtual environment. This can be done by following the instructions from the [Python website](https://packaging.python.org/en/latest/guides/installing-using-pip-and-virtual-environments/)
