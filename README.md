@@ -2,7 +2,7 @@
 Welcome to the repository for the Capstone Project II (2022-2023) at CADT, supervised by Mr. Him Soklong. This project focuses on developing an image-based search engine for an ecommerce website.
 
 ### Team members
-This project is under the advisorship of mr.Him Soklong and involves four students in the fourth year of the bachelor's in Computer Science:
+This project is under the advisorship of Mr.Him Soklong and involves four students in the fourth year of the bachelor's in Computer Science:
 - Set Kimhong
 - Phat Soklieng
 - Kun Raksa
@@ -14,7 +14,7 @@ Conventional text-based search in e-commerce platforms faces limitations, especi
 ## Repository structure
 - `README.md`: Contains important information about the project.
 - `Fashion_Items_Dataset/`: Folder containing the full image dataset used in the project.
-- `Fashion_Items_Dataset_Test/`: Folder containing 20% of the full image dataset for testing or experimentation.
+- `Fashion_Items_For_Testing/`: Folder containing 20% of the full image dataset for testing or experimentation.
 - `Image_Similarity_Search.ipynb`: Jupyter Notebook file containing data loader, data preprocessing, feature extraction, model, and evaluation.
 
 ## Install instructions
