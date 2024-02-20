@@ -28,7 +28,7 @@ image_transform = transforms.Compose([
 ])
 
 # Load the dataset
-image_directory = 'Fashion_Items_For_Testing/'  # Will Be Replace with the actual directory path of FULL DATASET
+image_directory = 'New_Fashion_Items_Dataset/'  # Will Be Replace with the actual directory path of FULL DATASET
 dataset = CustomImageDataset(root_dir=image_directory, transform=image_transform, include_feature_vector=True)
 
 # Streamlit UI
