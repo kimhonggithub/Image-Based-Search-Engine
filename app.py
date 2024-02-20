@@ -6,9 +6,8 @@ from sklearn.neighbors import NearestNeighbors
 from model import CustomImageDataset  # assuming you have the CustomImageDataset 
 from vector import get_vector  # and get_vector functions in a model.py file
 import numpy as np
-import torchvision.transforms as transforms
 from torchvision import transforms
-from torch.utils.data import Dataset, DataLoader
+from torch.utils.data import DataLoader
 
 # Load the pretrained model
 resnet50_model_path = "resnet50_model.pth"  # Replace with the actual path to your saved model
